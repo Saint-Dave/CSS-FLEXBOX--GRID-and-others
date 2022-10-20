@@ -26,7 +26,7 @@ button{
     border: 2px solid hsl(0, 0%, 95%);
     width: 150px;
     height: 50px;
-    margin-top: 80px;
+    margin-top: 7vh;
     padding: 10px 10px 10px 10px;
     cursor: pointer;
     text-align: center;
@@ -69,8 +69,15 @@ img{
     align-items: center;
     background-color: hsl(0, 0%, 95%);
     border-radius: 20px;
-    width: 1440px;
+    /* width: 1440px; */
     height: 100vh;
+}
+.allflex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+    height: 80vh;
+    width: auto;
 }
 .sedans{
     background-color: hsl(31, 77%, 52%);
@@ -99,7 +106,7 @@ img{
     padding: 50px;
     border-radius: 0px 15px 15px 0px;
 }
-
+@media (max-width: 1300px) {}
 /* NOTE:
 I designed this exactly to the responsive screen size of
 WIDTH = 375px and,
@@ -118,12 +125,12 @@ as required. */
         background-color: hsl(0, 0%, 95%);
         border-radius: 20px;
         width: 375px;
-        height: 100vh;
-        margin-top: 30px;
-        margin-bottom: 30px;
+    }
+    .allflex{
+        display: flex;
+        flex-direction: column;
     }
     .sedans{
-        margin-top: 780px;
         margin-bottom: 30px;
         border-radius: 0;
     }
