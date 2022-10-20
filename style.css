@@ -15,9 +15,8 @@ p{
 button{
     border-radius: 40px;
     border: 2px solid hsl(0, 0%, 95%);
-    width: 70%;
-    height: 10%;
-    margin-top: 90px;
+    width: 120px;
+    height: 90px;
     cursor: pointer;
     text-align: center;
     font-family: 'Lexend Deca', sans-serif;
@@ -62,8 +61,8 @@ img{
 }
 .sedans{
     background-color: hsl(31, 77%, 52%);
-    width: 210px;
-    height: 60vh;
+    width: 170px;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -71,8 +70,8 @@ img{
 }
 .suvs{
     background-color: hsl(184, 100%, 22%);
-    width: 210px;
-    height: 60vh;
+    width: 170px;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -81,8 +80,8 @@ img{
 .luxury{
     display: flex;
     flex-direction: column;
-    width: 210px;
-    height: 60vh;
+    width: 170px;
+    height: 50vh;
     background-color: hsl(179, 100%, 13%);
     padding: 50px;
     border-radius: 0px 15px 15px 0px;
@@ -150,5 +149,3 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
     height: 45vh;
 }
 
-/* width: 170px;
-height: 50vh; */
