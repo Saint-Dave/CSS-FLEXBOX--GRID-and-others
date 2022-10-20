@@ -203,6 +203,10 @@ PS; I used Photoshop to get the exact color of each grid as well to confirm the 
     justify-content: center;
     display: grid;
     gap: 16px;
+    margin-right: 192px;
+    margin-bottom: 46px;
+    margin-top: 27px;
+    padding-left: 60px;
     
 }
 .grid12{
