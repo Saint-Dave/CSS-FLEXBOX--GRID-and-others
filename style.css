@@ -189,6 +189,11 @@ exactly as the sample image.
 
 PS; I used Photoshop to get the exact color of each grid as well to confirm the sizes.*/
 
+.centerlayout{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 .grid_layout{
     background-color: #1a1c28;
     height: 554px;
