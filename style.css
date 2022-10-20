@@ -21,11 +21,15 @@ p{
     font-size: 15px;
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 button{
     border-radius: 40px;
     border: 2px solid hsl(0, 0%, 95%);
-    width: 150px;
-    height: 50px;
+    width: 120px;
+    height: 60px;
     margin-top: 7vh;
     padding: 10px 10px 10px 10px;
     cursor: pointer;
@@ -257,6 +261,15 @@ PS; I used Photoshop to get the exact color of each grid as well to confirm the 
     height: 127px;
     width: 344px;
 }
-
+.button_grid{
+    background-color: #1a1c28;
+    color: #ffa401;
+    width: 200px;
+    margin-left: 35%;
+}
+.button_grid:hover{
+    background-color: #ffa401;
+    color: #1a1c28;
+}
 /* width: 170px;
 height: 50vh; */
